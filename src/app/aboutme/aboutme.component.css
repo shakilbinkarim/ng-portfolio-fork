@@ -7,9 +7,9 @@ img {
     overflow: hidden;
 }
 
-.container {
+.aboutmepls {
     background-color: #00adb5;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    margin: 0 0 0 0;
+    color: aliceblue;
+    width: 100%;
 }
