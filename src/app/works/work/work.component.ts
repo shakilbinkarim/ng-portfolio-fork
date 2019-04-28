@@ -3,14 +3,14 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-work',
   templateUrl: './work.component.html',
-  styleUrls: []
+  styleUrls: ['./work.component.css']
 })
 export class WorkComponent implements OnInit {
-  title: String = "dsa";
-  body: String = "adssdad";
-  link: String = "";
-  @Input()
-  imgsource: String;
+
+  @Input('title') title: String;
+  @Input('body') body: String;
+  @Input('link') link: String;
+  @Input('imgsrc') imgsource: String;
 
 
   constructor() {

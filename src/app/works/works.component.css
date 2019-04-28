@@ -1,60 +1,29 @@
+
 .homepls {
     position: relative;
     background: url("/assets/img/bg4.jpg") center center;
     width: 100%;
     height: 100%;
     margin-bottom: 0px;
-    background-size: cover;
+    background-size: contain, cover;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 100% 100%;
     transition: all 0.5s;
     overflow: hidden;
 }
 
 .homepls:hover{
     transition: all 0.7s;
-    background-size: 105%;
+    background-size: 105% 105%;
 }
 
-a {
-    text-decoration: none !important;
-    color: black;
- }
-a:hover
- {
-   text-decoration:none;
-   cursor:pointer;
+.jumbotron {
+    background: none;
 }
-.card {
-    margin-top: 10%;
-}
-
-.card-img-wrap {
-    overflow: hidden;
-    position: relative;
-}
-
-.card-img-wrap:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.3);
-    opacity: 0;
-    transition: opacity .25s;
-}
-
-.card-img-wrap img {
-    transition: transform .25s;
-    width: 100%;
-}
-
-.card-img-wrap:hover img {
-    transform: scale(1.2);
-}
-
-.card-img-wrap:hover:after {
-    opacity: 1;
+hr{
+    height: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
