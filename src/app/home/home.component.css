@@ -6,16 +6,14 @@
     height: 100%;
     margin-bottom: 0px;
     background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    transition: all 0.5s;
     overflow: hidden;
 }
-
-.homehead {
-    font-size: 48px;
-    text-shadow: 5px;
-}
-
-.homesubhead {
-    font-size: 24px;
-    text-shadow: 5px;
+.jumbotron:hover {
+    /* transform: scale(1.05); */
+    transition: all 0.7s;
+    background-size: 105%;
 }
 
