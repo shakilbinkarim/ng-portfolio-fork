@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  name = "Samin";
-  slogan = "roses are red even when they're dead";
+  name = "Shakil";
+  slogan = "a Software Engineer in Tokyo";
   constructor() { }
 
   ngOnInit() {

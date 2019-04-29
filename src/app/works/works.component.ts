@@ -9,14 +9,9 @@ import { WorkComponent } from './work/work.component';
 })
 export class WorksComponent implements OnInit {
 
-//  workCard: WorkComponent;
-//  @Input() workCard = new WorkComponent;
+  columnSize:string = "col-md-4";
 
   constructor() { 
-    // this.workCard.body = "asdasd";
-    // this.workCard.link = "youtube.com";
-    // this.workCard.imgsource = "/assets/img/dp.jpg";
-    // this.workCard.title = "workmen";
   }
 
   ngOnInit() {
